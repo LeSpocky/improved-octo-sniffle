@@ -7,3 +7,5 @@ print "I could have code like this." # yes and you can add comments after statem
 # print "This won't run."
 
 print "This will run."
+
+print "Let's see what a # inside a string does?!"
