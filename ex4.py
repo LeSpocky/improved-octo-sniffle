@@ -1,8 +1,9 @@
 # assign 100 to the variable 'cars'
 cars = 100
 
-# assign 4.0 (fractional number) to the variable 'space_in_a_car'
-space_in_a_car = 4.0
+# assign 4 to the variable 'space_in_a_car'
+# (was float, but is just used to multiply something, int is sufficient)
+space_in_a_car = 4
 
 # assign the value 30 to the variable 'drivers'
 drivers = 30
