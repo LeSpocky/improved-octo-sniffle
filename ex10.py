@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
@@ -41,3 +43,6 @@ while True:
 '''
 
 print "Bye."
+
+print "\n%r" % u'\u03A8\nΩ'
+print "\n%s" % u'\u03A8\nΩ'

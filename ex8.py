@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 formatter = "%r %r %r %r"
 
 print formatter % (1, 2, 3, 4)
@@ -10,3 +12,5 @@ print formatter % (
         "But it didn't sing.",
         "So I said goodnight."
 )
+
+print formatter % ( "€™", "Ümlaut", "Hartgummignöbel", "±" )
