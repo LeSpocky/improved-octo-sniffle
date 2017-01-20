@@ -16,7 +16,24 @@ def my_loop( limit, inc ):
     return numbers
 
 
+def my_other_loop( limit, inc ):
+    numbers = []
+
+    for i in range( 0, limit, inc ):
+        print "Appending %d" % i
+        numbers.append( i )
+
+        print "Numbers now: ", numbers
+
+    return numbers
+
+
 print "The numbers: "
 
-for num in my_loop( 6, 2 ):
+for num in my_loop( 6, 1 ):
+    print num
+
+print( "\n" )
+
+for num in my_other_loop( 6, 1 ):
     print num
